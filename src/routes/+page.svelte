@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<svelte:head>
+    <title>calculator</title>
+</svelte:head>
+
+<div
+    class="bg-[#fefefe] h-[30rem] w-[20rem] rounded-3xl flex justify-center items-center"
+>
+    <div class="bg-slate-400 h-20 w-20 rounded-full"></div>
+</div>
