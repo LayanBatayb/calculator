@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
  button{
-   @apply bg-slate-300 rounded-full h-16 w-16 text-2xl shadow-lg
+   @apply bg-slate-300 hover:scale-90 transition-all rounded-full h-16 min-w-16 text-3xl shadow-lg flex items-center justify-center
+ }
+ body{
+  font-family: "Arimo", sans-serif;
  }
